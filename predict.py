@@ -29,7 +29,6 @@ model_settings = {
   '__model_nm': None,
   '__param_epoch': None,
   '__combinatorial_central_pos': '6',
-  # 4^n. above 4 needs 2gb ram, but covers more of total probability
   # = 4 req. 0.1 s. 5 takes 0.4 seconds, 6 = 1.6 seconds, etc
   '__combinatorial_nt_limit': '5',   
   '__combinatorial_radii': '10',
@@ -295,10 +294,10 @@ def __load_model_hyperparameters():
 
 def predict(seq):
   assert len(seq) == 50, f'Error: Sequence provided is {len(seq)}, must be 50 (positions -19 to 30 w.r.t. gRNA (positions 1-20)'
-
   assert init_flag, f'Call .init_model() first.'
   seq = seq.upper()
 
+  ## Call model
   query_df = __seq_to_query_df(seq)
   pred_df = query_df
 
@@ -321,7 +320,18 @@ def predict(seq):
   pred_df['Predicted frequency'] = pred_probs
   pred_df = pred_df.sort_values(by = 'Predicted frequency', ascending = False)
   pred_df = pred_df.reset_index(drop = True)
-  return pred_df
+
+
+  ## Get stats
+  stats = {
+    'Total predicted probability': sum(pred_df['Predicted frequency']),
+    '50-nt target sequence': seq,
+    'Assumed protospacer sequence': seq[20:40],
+    'Celltype': model_settings['celltype'],
+    'Base editor': model_settings['base_editor'],
+  }
+
+  return pred_df, stats
 
 
 def init_model(base_editor = '', celltype = ''):

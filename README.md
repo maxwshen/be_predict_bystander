@@ -33,21 +33,21 @@ pred_df, stats = bystander_model.predict(seq)
 `stats` is a dict with the following keys.
 - Total predicted probability
 - 50-nt target sequence
-- PAM - inferred
-- Protospacer sequence - inferred
+- Assumed protospacer sequence
 - Celltype
+- Base editor
 
 ### Example usage
 ```python
-import inDelphi
-inDelphi.init_model(celltype = 'mESC')
+import predict as bystander_model
+bystander_model.init_model(base_editor = 'BE4', celltype = 'mES')
 
 seq = 'TATCAGCGGGAATTCAAGCGCACCAGCCAGAGGTGTACCGTGGACGTGAG'
 
 pred_df, stats = bystander_model.predict(seq)
 ```
 
-## Additional methods
+## Additional methods and advanced topics
 Once you have obtained `pred_df, stats`, additional methods are available for your convenience.
 
 ### Obtaining exact genotypes
@@ -57,6 +57,9 @@ pred_df = bystander_model.add_genotype_column(pred_df, stats)
 ```
 
 A new column `Genotype` will be created.
+
+### Increasing total predicted probability
+This tool outputs predictions on the combinatorial space of size 4^N where N is the number of substrate nucleotides (A or C for ABEs, and C or G for CBEs) in the editing windows defined in `editor_profiles.csv`. To maximize utility, we use a heuristic search designed to cover the vast majority of total probability while querying a small fraction of all possible combinations of edits. We anticipate that our heuristic strategy will be sufficient for most users. However, if you'd like to change this behavior, you can edit the code in `predict.py` -- the private function `__seq_to_query_df` is a good place to start.
 
 ## Contact
 maxwshen at mit.edu
