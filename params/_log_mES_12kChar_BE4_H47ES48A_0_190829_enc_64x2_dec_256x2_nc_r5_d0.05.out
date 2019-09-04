@@ -1,0 +1,1206 @@
+model dir: /ahg/regevdata/projects/CRISPR-libraries/prj/lib-modeling/portable_modeling/out/c_ag_res/model_mES_12kChar_BE4_H47ES48A_0_190829_enc_64x2_dec_256x2_nc_r5_d0.05/
+Hyperparameters: encoder_hidden_sizes:64,64+decoder_hidden_sizes:256,256+context_feature:1+fullcontext_feature:0+position_feature:1+context_radii:5+dropout_p:0.05
+x_dim: 74
+y_mask_dim: 180
+train_test_id: 0
+----------
+Epoch 0/299 at 2019-08-29 14:38:56.610104
+train Loss: 0.8934
+valid Loss: 0.5349
+----------
+Epoch 1/299 at 2019-08-29 14:41:08.561399
+train Loss: 0.5495
+valid Loss: 0.5021
+----------
+Epoch 2/299 at 2019-08-29 14:43:21.229769
+train Loss: 0.5104
+valid Loss: 0.4290
+----------
+Epoch 3/299 at 2019-08-29 14:45:33.679628
+train Loss: 0.4799
+valid Loss: 0.4266
+----------
+Epoch 4/299 at 2019-08-29 14:47:44.833130
+train Loss: 0.4630
+valid Loss: 0.5035
+----------
+Epoch 5/299 at 2019-08-29 14:49:56.128482
+train Loss: 0.4584
+valid Loss: 0.4138
+----------
+Epoch 6/299 at 2019-08-29 14:52:07.366754
+train Loss: 0.4407
+valid Loss: 0.3932
+----------
+Epoch 7/299 at 2019-08-29 14:54:19.121912
+train Loss: 0.4306
+valid Loss: 0.4818
+----------
+Epoch 8/299 at 2019-08-29 14:56:29.707265
+train Loss: 0.4252
+valid Loss: 0.3770
+----------
+Epoch 9/299 at 2019-08-29 14:58:41.490415
+train Loss: 0.4190
+valid Loss: 0.3918
+----------
+Epoch 10/299 at 2019-08-29 15:00:52.637969
+train Loss: 0.4160
+valid Loss: 0.3775
+----------
+Epoch 11/299 at 2019-08-29 15:03:03.032917
+train Loss: 0.4062
+valid Loss: 0.3766
+----------
+Epoch 12/299 at 2019-08-29 15:05:13.773505
+train Loss: 0.4049
+valid Loss: 0.3973
+----------
+Epoch 13/299 at 2019-08-29 15:07:24.160474
+train Loss: 0.3991
+valid Loss: 0.4399
+----------
+Epoch 14/299 at 2019-08-29 15:09:34.670919
+train Loss: 0.3938
+valid Loss: 0.3678
+----------
+Epoch 15/299 at 2019-08-29 15:11:45.647288
+train Loss: 0.3915
+valid Loss: 0.3735
+----------
+Epoch 16/299 at 2019-08-29 15:13:56.450104
+train Loss: 0.3873
+valid Loss: 0.3679
+----------
+Epoch 17/299 at 2019-08-29 15:16:07.796156
+train Loss: 0.3860
+valid Loss: 0.3992
+----------
+Epoch 18/299 at 2019-08-29 15:18:17.994465
+train Loss: 0.3842
+valid Loss: 0.3750
+----------
+Epoch 19/299 at 2019-08-29 15:20:29.535778
+train Loss: 0.3798
+valid Loss: 0.3622
+----------
+Epoch 20/299 at 2019-08-29 15:22:40.494881
+train Loss: 0.3790
+valid Loss: 0.3663
+----------
+Epoch 21/299 at 2019-08-29 15:24:52.243288
+train Loss: 0.3748
+valid Loss: 0.3754
+----------
+Epoch 22/299 at 2019-08-29 15:27:03.679242
+train Loss: 0.3772
+valid Loss: 0.3631
+----------
+Epoch 23/299 at 2019-08-29 15:29:15.297200
+train Loss: 0.3717
+valid Loss: 0.3890
+----------
+Epoch 24/299 at 2019-08-29 15:31:26.020715
+train Loss: 0.3709
+valid Loss: 0.3633
+----------
+Epoch 25/299 at 2019-08-29 15:33:37.057753
+train Loss: 0.3694
+valid Loss: 0.3520
+----------
+Epoch 26/299 at 2019-08-29 15:35:48.403662
+train Loss: 0.3684
+valid Loss: 0.3527
+----------
+Epoch 27/299 at 2019-08-29 15:38:00.143680
+train Loss: 0.3659
+valid Loss: 0.3604
+----------
+Epoch 28/299 at 2019-08-29 15:40:11.642179
+train Loss: 0.3661
+valid Loss: 0.3432
+----------
+Epoch 29/299 at 2019-08-29 15:42:22.235974
+train Loss: 0.3614
+valid Loss: 0.3481
+----------
+Epoch 30/299 at 2019-08-29 15:44:32.459940
+train Loss: 0.3633
+valid Loss: 0.3505
+----------
+Epoch 31/299 at 2019-08-29 15:46:43.297622
+train Loss: 0.3598
+valid Loss: 0.3568
+----------
+Epoch 32/299 at 2019-08-29 15:48:52.800058
+train Loss: 0.3583
+valid Loss: 0.3590
+----------
+Epoch 33/299 at 2019-08-29 15:51:02.421230
+train Loss: 0.3576
+valid Loss: 0.3475
+----------
+Epoch 34/299 at 2019-08-29 15:53:11.937745
+train Loss: 0.3569
+valid Loss: 0.3435
+----------
+Epoch 35/299 at 2019-08-29 15:55:22.008756
+train Loss: 0.3543
+valid Loss: 0.3444
+----------
+Epoch 36/299 at 2019-08-29 15:57:32.066211
+train Loss: 0.3536
+valid Loss: 0.3418
+----------
+Epoch 37/299 at 2019-08-29 15:59:42.207260
+train Loss: 0.3525
+valid Loss: 0.3499
+----------
+Epoch 38/299 at 2019-08-29 16:01:52.184970
+train Loss: 0.3507
+valid Loss: 0.3509
+----------
+Epoch 39/299 at 2019-08-29 16:04:02.396084
+train Loss: 0.3507
+valid Loss: 0.3482
+----------
+Epoch 40/299 at 2019-08-29 16:06:12.440388
+train Loss: 0.3496
+valid Loss: 0.3421
+----------
+Epoch 41/299 at 2019-08-29 16:08:22.588231
+train Loss: 0.3488
+valid Loss: 0.3498
+----------
+Epoch 42/299 at 2019-08-29 16:10:32.814464
+train Loss: 0.3462
+valid Loss: 0.3391
+----------
+Epoch 43/299 at 2019-08-29 16:12:42.426623
+train Loss: 0.3455
+valid Loss: 0.3406
+----------
+Epoch 44/299 at 2019-08-29 16:14:52.517380
+train Loss: 0.3446
+valid Loss: 0.3349
+----------
+Epoch 45/299 at 2019-08-29 16:17:02.432539
+train Loss: 0.3424
+valid Loss: 0.3310
+----------
+Epoch 46/299 at 2019-08-29 16:19:12.882157
+train Loss: 0.3394
+valid Loss: 0.3460
+----------
+Epoch 47/299 at 2019-08-29 16:21:24.035598
+train Loss: 0.3393
+valid Loss: 0.3434
+----------
+Epoch 48/299 at 2019-08-29 16:23:34.594741
+train Loss: 0.3401
+valid Loss: 0.3456
+----------
+Epoch 49/299 at 2019-08-29 16:25:44.638539
+train Loss: 0.3385
+valid Loss: 0.3411
+----------
+Epoch 50/299 at 2019-08-29 16:27:53.928065
+train Loss: 0.3387
+valid Loss: 0.3295
+----------
+Epoch 51/299 at 2019-08-29 16:30:03.464710
+train Loss: 0.3369
+valid Loss: 0.3293
+----------
+Epoch 52/299 at 2019-08-29 16:32:13.506872
+train Loss: 0.3358
+valid Loss: 0.3587
+----------
+Epoch 53/299 at 2019-08-29 16:34:23.148913
+train Loss: 0.3335
+valid Loss: 0.3306
+----------
+Epoch 54/299 at 2019-08-29 16:36:32.350887
+train Loss: 0.3313
+valid Loss: 0.3277
+----------
+Epoch 55/299 at 2019-08-29 16:38:42.669405
+train Loss: 0.3314
+valid Loss: 0.3331
+----------
+Epoch 56/299 at 2019-08-29 16:40:54.487986
+train Loss: 0.3309
+valid Loss: 0.3241
+----------
+Epoch 57/299 at 2019-08-29 16:43:06.631916
+train Loss: 0.3290
+valid Loss: 0.3301
+----------
+Epoch 58/299 at 2019-08-29 16:45:18.358857
+train Loss: 0.3258
+valid Loss: 0.3300
+----------
+Epoch 59/299 at 2019-08-29 16:47:29.818887
+train Loss: 0.3271
+valid Loss: 0.3298
+----------
+Epoch 60/299 at 2019-08-29 16:49:41.474321
+train Loss: 0.3267
+valid Loss: 0.3302
+----------
+Epoch 61/299 at 2019-08-29 16:51:52.984273
+train Loss: 0.3268
+valid Loss: 0.3295
+----------
+Epoch 62/299 at 2019-08-29 16:54:01.542855
+train Loss: 0.3262
+valid Loss: 0.3259
+----------
+Epoch 63/299 at 2019-08-29 16:56:09.944955
+train Loss: 0.3254
+valid Loss: 0.3285
+----------
+Epoch 64/299 at 2019-08-29 16:58:18.713434
+train Loss: 0.3252
+valid Loss: 0.3244
+----------
+Epoch 65/299 at 2019-08-29 17:00:26.865188
+train Loss: 0.3219
+valid Loss: 0.3265
+----------
+Epoch 66/299 at 2019-08-29 17:02:35.042661
+train Loss: 0.3233
+valid Loss: 0.3220
+----------
+Epoch 67/299 at 2019-08-29 17:04:43.268682
+train Loss: 0.3220
+valid Loss: 0.3410
+----------
+Epoch 68/299 at 2019-08-29 17:06:51.125867
+train Loss: 0.3211
+valid Loss: 0.3271
+----------
+Epoch 69/299 at 2019-08-29 17:08:59.737292
+train Loss: 0.3189
+valid Loss: 0.3217
+----------
+Epoch 70/299 at 2019-08-29 17:11:09.585771
+train Loss: 0.3171
+valid Loss: 0.3307
+----------
+Epoch 71/299 at 2019-08-29 17:13:20.911432
+train Loss: 0.3184
+valid Loss: 0.3206
+----------
+Epoch 72/299 at 2019-08-29 17:15:31.825040
+train Loss: 0.3190
+valid Loss: 0.3438
+----------
+Epoch 73/299 at 2019-08-29 17:17:40.687731
+train Loss: 0.3159
+valid Loss: 0.3301
+----------
+Epoch 74/299 at 2019-08-29 17:19:49.910837
+train Loss: 0.3157
+valid Loss: 0.3253
+----------
+Epoch 75/299 at 2019-08-29 17:21:59.495791
+train Loss: 0.3155
+valid Loss: 0.3208
+----------
+Epoch 76/299 at 2019-08-29 17:24:08.805709
+train Loss: 0.3162
+valid Loss: 0.3200
+----------
+Epoch 77/299 at 2019-08-29 17:26:20.350194
+train Loss: 0.3128
+valid Loss: 0.3241
+----------
+Epoch 78/299 at 2019-08-29 17:28:31.805497
+train Loss: 0.3160
+valid Loss: 0.3214
+----------
+Epoch 79/299 at 2019-08-29 17:30:41.003280
+train Loss: 0.3123
+valid Loss: 0.3198
+----------
+Epoch 80/299 at 2019-08-29 17:32:49.581965
+train Loss: 0.3134
+valid Loss: 0.3233
+----------
+Epoch 81/299 at 2019-08-29 17:34:57.935715
+train Loss: 0.3137
+valid Loss: 0.3247
+----------
+Epoch 82/299 at 2019-08-29 17:37:06.233079
+train Loss: 0.3129
+valid Loss: 0.3185
+----------
+Epoch 83/299 at 2019-08-29 17:39:14.867886
+train Loss: 0.3135
+valid Loss: 0.3202
+----------
+Epoch 84/299 at 2019-08-29 17:41:23.705073
+train Loss: 0.3125
+valid Loss: 0.3210
+----------
+Epoch 85/299 at 2019-08-29 17:43:32.426151
+train Loss: 0.3096
+valid Loss: 0.3216
+----------
+Epoch 86/299 at 2019-08-29 17:45:41.501685
+train Loss: 0.3112
+valid Loss: 0.3233
+----------
+Epoch 87/299 at 2019-08-29 17:47:51.082493
+train Loss: 0.3097
+valid Loss: 0.3294
+----------
+Epoch 88/299 at 2019-08-29 17:50:02.831347
+train Loss: 0.3081
+valid Loss: 0.3216
+----------
+Epoch 89/299 at 2019-08-29 17:52:14.821150
+train Loss: 0.3077
+valid Loss: 0.3216
+----------
+Epoch 90/299 at 2019-08-29 17:54:26.959680
+train Loss: 0.3081
+valid Loss: 0.3232
+----------
+Epoch 91/299 at 2019-08-29 17:56:38.927005
+train Loss: 0.3084
+valid Loss: 0.3151
+----------
+Epoch 92/299 at 2019-08-29 17:58:47.889481
+train Loss: 0.3073
+valid Loss: 0.3169
+----------
+Epoch 93/299 at 2019-08-29 18:00:56.498206
+train Loss: 0.3071
+valid Loss: 0.3205
+----------
+Epoch 94/299 at 2019-08-29 18:03:06.008686
+train Loss: 0.3059
+valid Loss: 0.3248
+----------
+Epoch 95/299 at 2019-08-29 18:05:16.877296
+train Loss: 0.3068
+valid Loss: 0.3348
+----------
+Epoch 96/299 at 2019-08-29 18:07:26.960953
+train Loss: 0.3085
+valid Loss: 0.3242
+----------
+Epoch 97/299 at 2019-08-29 18:09:36.598980
+train Loss: 0.3026
+valid Loss: 0.3234
+----------
+Epoch 98/299 at 2019-08-29 18:11:46.061401
+train Loss: 0.3051
+valid Loss: 0.3226
+----------
+Epoch 99/299 at 2019-08-29 18:13:55.245494
+train Loss: 0.3044
+valid Loss: 0.3181
+----------
+Epoch 100/299 at 2019-08-29 18:16:05.333592
+train Loss: 0.3030
+valid Loss: 0.3299
+----------
+Epoch 101/299 at 2019-08-29 18:18:16.827203
+train Loss: 0.3046
+valid Loss: 0.3241
+----------
+Epoch 102/299 at 2019-08-29 18:20:29.996203
+train Loss: 0.3027
+valid Loss: 0.3229
+----------
+Epoch 103/299 at 2019-08-29 18:22:40.515486
+train Loss: 0.3035
+valid Loss: 0.3243
+----------
+Epoch 104/299 at 2019-08-29 18:24:50.083970
+train Loss: 0.3009
+valid Loss: 0.3210
+----------
+Epoch 105/299 at 2019-08-29 18:26:59.502213
+train Loss: 0.3031
+valid Loss: 0.3410
+----------
+Epoch 106/299 at 2019-08-29 18:29:08.260473
+train Loss: 0.3010
+valid Loss: 0.3404
+----------
+Epoch 107/299 at 2019-08-29 18:31:18.256608
+train Loss: 0.3013
+valid Loss: 0.3282
+----------
+Epoch 108/299 at 2019-08-29 18:33:28.277051
+train Loss: 0.3001
+valid Loss: 0.3157
+----------
+Epoch 109/299 at 2019-08-29 18:35:38.259083
+train Loss: 0.3004
+valid Loss: 0.3221
+----------
+Epoch 110/299 at 2019-08-29 18:37:48.285397
+train Loss: 0.3007
+valid Loss: 0.3162
+----------
+Epoch 111/299 at 2019-08-29 18:39:58.099773
+train Loss: 0.2971
+valid Loss: 0.3244
+----------
+Epoch 112/299 at 2019-08-29 18:42:07.511480
+train Loss: 0.2984
+valid Loss: 0.3190
+----------
+Epoch 113/299 at 2019-08-29 18:44:16.663480
+train Loss: 0.2986
+valid Loss: 0.3253
+----------
+Epoch 114/299 at 2019-08-29 18:46:26.603927
+train Loss: 0.2978
+valid Loss: 0.3306
+----------
+Epoch 115/299 at 2019-08-29 18:48:36.606139
+train Loss: 0.2990
+valid Loss: 0.3245
+----------
+Epoch 116/299 at 2019-08-29 18:50:46.786633
+train Loss: 0.2986
+valid Loss: 0.3225
+----------
+Epoch 117/299 at 2019-08-29 18:52:55.841055
+train Loss: 0.2979
+valid Loss: 0.3173
+----------
+Epoch 118/299 at 2019-08-29 18:55:05.740325
+train Loss: 0.2968
+valid Loss: 0.3190
+----------
+Epoch 119/299 at 2019-08-29 18:57:15.126683
+train Loss: 0.2968
+valid Loss: 0.3167
+----------
+Epoch 120/299 at 2019-08-29 18:59:26.617693
+train Loss: 0.2983
+valid Loss: 0.3182
+----------
+Epoch 121/299 at 2019-08-29 19:01:40.567105
+train Loss: 0.2964
+valid Loss: 0.3205
+----------
+Epoch 122/299 at 2019-08-29 19:03:56.472061
+train Loss: 0.2910
+valid Loss: 0.3234
+----------
+Epoch 123/299 at 2019-08-29 19:06:08.668052
+train Loss: 0.2940
+valid Loss: 0.3174
+----------
+Epoch 124/299 at 2019-08-29 19:08:19.428070
+train Loss: 0.2930
+valid Loss: 0.3190
+----------
+Epoch 125/299 at 2019-08-29 19:10:30.487561
+train Loss: 0.2949
+valid Loss: 0.3187
+----------
+Epoch 126/299 at 2019-08-29 19:12:41.335101
+train Loss: 0.2960
+valid Loss: 0.3227
+----------
+Epoch 127/299 at 2019-08-29 19:14:51.614702
+train Loss: 0.2917
+valid Loss: 0.3166
+----------
+Epoch 128/299 at 2019-08-29 19:17:01.658576
+train Loss: 0.2946
+valid Loss: 0.3165
+----------
+Epoch 129/299 at 2019-08-29 19:19:12.105111
+train Loss: 0.2936
+valid Loss: 0.3131
+----------
+Epoch 130/299 at 2019-08-29 19:21:22.406971
+train Loss: 0.2932
+valid Loss: 0.3183
+----------
+Epoch 131/299 at 2019-08-29 19:23:33.235793
+train Loss: 0.2900
+valid Loss: 0.3128
+----------
+Epoch 132/299 at 2019-08-29 19:25:44.092614
+train Loss: 0.2932
+valid Loss: 0.3193
+----------
+Epoch 133/299 at 2019-08-29 19:27:54.721164
+train Loss: 0.2927
+valid Loss: 0.3124
+----------
+Epoch 134/299 at 2019-08-29 19:30:05.440975
+train Loss: 0.2924
+valid Loss: 0.3143
+----------
+Epoch 135/299 at 2019-08-29 19:32:15.888554
+train Loss: 0.2915
+valid Loss: 0.3205
+----------
+Epoch 136/299 at 2019-08-29 19:34:26.222983
+train Loss: 0.2922
+valid Loss: 0.3165
+----------
+Epoch 137/299 at 2019-08-29 19:36:37.506068
+train Loss: 0.2915
+valid Loss: 0.3205
+----------
+Epoch 138/299 at 2019-08-29 19:38:52.107456
+train Loss: 0.2903
+valid Loss: 0.3186
+----------
+Epoch 139/299 at 2019-08-29 19:41:04.452831
+train Loss: 0.2908
+valid Loss: 0.3176
+----------
+Epoch 140/299 at 2019-08-29 19:43:14.252617
+train Loss: 0.2895
+valid Loss: 0.3137
+----------
+Epoch 141/299 at 2019-08-29 19:45:26.362856
+train Loss: 0.2901
+valid Loss: 0.3193
+----------
+Epoch 142/299 at 2019-08-29 19:47:40.785833
+train Loss: 0.2886
+valid Loss: 0.3247
+----------
+Epoch 143/299 at 2019-08-29 19:49:52.454384
+train Loss: 0.2876
+valid Loss: 0.3176
+----------
+Epoch 144/299 at 2019-08-29 19:52:02.770596
+train Loss: 0.2899
+valid Loss: 0.3236
+----------
+Epoch 145/299 at 2019-08-29 19:54:12.450938
+train Loss: 0.2900
+valid Loss: 0.3171
+----------
+Epoch 146/299 at 2019-08-29 19:56:21.831646
+train Loss: 0.2876
+valid Loss: 0.3174
+----------
+Epoch 147/299 at 2019-08-29 19:58:30.602097
+train Loss: 0.2875
+valid Loss: 0.3261
+----------
+Epoch 148/299 at 2019-08-29 20:00:42.473604
+train Loss: 0.2868
+valid Loss: 0.3209
+----------
+Epoch 149/299 at 2019-08-29 20:02:55.426979
+train Loss: 0.2875
+valid Loss: 0.3168
+----------
+Epoch 150/299 at 2019-08-29 20:05:04.993644
+train Loss: 0.2870
+valid Loss: 0.3194
+----------
+Epoch 151/299 at 2019-08-29 20:07:15.004734
+train Loss: 0.2859
+valid Loss: 0.3160
+----------
+Epoch 152/299 at 2019-08-29 20:09:23.888120
+train Loss: 0.2864
+valid Loss: 0.3213
+----------
+Epoch 153/299 at 2019-08-29 20:11:32.843260
+train Loss: 0.2869
+valid Loss: 0.3171
+----------
+Epoch 154/299 at 2019-08-29 20:13:42.008686
+train Loss: 0.2852
+valid Loss: 0.3194
+----------
+Epoch 155/299 at 2019-08-29 20:15:51.420084
+train Loss: 0.2844
+valid Loss: 0.3175
+----------
+Epoch 156/299 at 2019-08-29 20:18:01.312134
+train Loss: 0.2862
+valid Loss: 0.3385
+----------
+Epoch 157/299 at 2019-08-29 20:20:10.291659
+train Loss: 0.2839
+valid Loss: 0.3198
+----------
+Epoch 158/299 at 2019-08-29 20:22:19.786412
+train Loss: 0.2853
+valid Loss: 0.3186
+----------
+Epoch 159/299 at 2019-08-29 20:24:29.343150
+train Loss: 0.2856
+valid Loss: 0.3163
+----------
+Epoch 160/299 at 2019-08-29 20:26:38.396563
+train Loss: 0.2836
+valid Loss: 0.3241
+----------
+Epoch 161/299 at 2019-08-29 20:28:47.965153
+train Loss: 0.2829
+valid Loss: 0.3220
+----------
+Epoch 162/299 at 2019-08-29 20:30:56.955247
+train Loss: 0.2854
+valid Loss: 0.3166
+----------
+Epoch 163/299 at 2019-08-29 20:33:06.890517
+train Loss: 0.2825
+valid Loss: 0.3138
+----------
+Epoch 164/299 at 2019-08-29 20:35:17.131694
+train Loss: 0.2831
+valid Loss: 0.3159
+----------
+Epoch 165/299 at 2019-08-29 20:37:26.280274
+train Loss: 0.2811
+valid Loss: 0.3176
+----------
+Epoch 166/299 at 2019-08-29 20:39:36.774155
+train Loss: 0.2844
+valid Loss: 0.3207
+----------
+Epoch 167/299 at 2019-08-29 20:41:46.974651
+train Loss: 0.2836
+valid Loss: 0.3182
+----------
+Epoch 168/299 at 2019-08-29 20:43:56.425288
+train Loss: 0.2828
+valid Loss: 0.3165
+----------
+Epoch 169/299 at 2019-08-29 20:46:06.112323
+train Loss: 0.2822
+valid Loss: 0.3138
+----------
+Epoch 170/299 at 2019-08-29 20:48:15.099552
+train Loss: 0.2825
+valid Loss: 0.3177
+----------
+Epoch 171/299 at 2019-08-29 20:50:24.314455
+train Loss: 0.2813
+valid Loss: 0.3178
+----------
+Epoch 172/299 at 2019-08-29 20:52:33.160529
+train Loss: 0.2816
+valid Loss: 0.3260
+----------
+Epoch 173/299 at 2019-08-29 20:54:42.022621
+train Loss: 0.2802
+valid Loss: 0.3180
+----------
+Epoch 174/299 at 2019-08-29 20:56:50.856579
+train Loss: 0.2775
+valid Loss: 0.3144
+----------
+Epoch 175/299 at 2019-08-29 20:59:00.334827
+train Loss: 0.2798
+valid Loss: 0.3161
+----------
+Epoch 176/299 at 2019-08-29 21:01:09.808517
+train Loss: 0.2793
+valid Loss: 0.3209
+----------
+Epoch 177/299 at 2019-08-29 21:03:19.604536
+train Loss: 0.2803
+valid Loss: 0.3205
+----------
+Epoch 178/299 at 2019-08-29 21:05:28.652950
+train Loss: 0.2804
+valid Loss: 0.3172
+----------
+Epoch 179/299 at 2019-08-29 21:07:37.802417
+train Loss: 0.2805
+valid Loss: 0.3156
+----------
+Epoch 180/299 at 2019-08-29 21:09:48.118908
+train Loss: 0.2771
+valid Loss: 0.3221
+----------
+Epoch 181/299 at 2019-08-29 21:11:57.642972
+train Loss: 0.2793
+valid Loss: 0.3182
+----------
+Epoch 182/299 at 2019-08-29 21:14:07.009570
+train Loss: 0.2774
+valid Loss: 0.3174
+----------
+Epoch 183/299 at 2019-08-29 21:16:15.375035
+train Loss: 0.2764
+valid Loss: 0.3191
+----------
+Epoch 184/299 at 2019-08-29 21:18:23.463199
+train Loss: 0.2772
+valid Loss: 0.3260
+----------
+Epoch 185/299 at 2019-08-29 21:20:31.660681
+train Loss: 0.2800
+valid Loss: 0.3138
+----------
+Epoch 186/299 at 2019-08-29 21:22:40.442648
+train Loss: 0.2780
+valid Loss: 0.3208
+----------
+Epoch 187/299 at 2019-08-29 21:24:49.826945
+train Loss: 0.2775
+valid Loss: 0.3268
+----------
+Epoch 188/299 at 2019-08-29 21:26:58.929383
+train Loss: 0.2752
+valid Loss: 0.3166
+----------
+Epoch 189/299 at 2019-08-29 21:29:08.297490
+train Loss: 0.2766
+valid Loss: 0.3155
+----------
+Epoch 190/299 at 2019-08-29 21:31:17.072948
+train Loss: 0.2771
+valid Loss: 0.3201
+----------
+Epoch 191/299 at 2019-08-29 21:33:25.775232
+train Loss: 0.2773
+valid Loss: 0.3194
+----------
+Epoch 192/299 at 2019-08-29 21:35:34.364780
+train Loss: 0.2760
+valid Loss: 0.3217
+----------
+Epoch 193/299 at 2019-08-29 21:37:43.174812
+train Loss: 0.2749
+valid Loss: 0.3197
+----------
+Epoch 194/299 at 2019-08-29 21:39:52.042163
+train Loss: 0.2773
+valid Loss: 0.3267
+----------
+Epoch 195/299 at 2019-08-29 21:42:01.787758
+train Loss: 0.2746
+valid Loss: 0.3132
+----------
+Epoch 196/299 at 2019-08-29 21:44:11.214077
+train Loss: 0.2752
+valid Loss: 0.3192
+----------
+Epoch 197/299 at 2019-08-29 21:46:23.277353
+train Loss: 0.2752
+valid Loss: 0.3178
+----------
+Epoch 198/299 at 2019-08-29 21:48:36.015219
+train Loss: 0.2726
+valid Loss: 0.3185
+----------
+Epoch 199/299 at 2019-08-29 21:50:47.350724
+train Loss: 0.2780
+valid Loss: 0.3192
+----------
+Epoch 200/299 at 2019-08-29 21:52:59.721596
+train Loss: 0.2749
+valid Loss: 0.3180
+----------
+Epoch 201/299 at 2019-08-29 21:55:11.873696
+train Loss: 0.2750
+valid Loss: 0.3206
+----------
+Epoch 202/299 at 2019-08-29 21:57:22.541992
+train Loss: 0.2752
+valid Loss: 0.3148
+----------
+Epoch 203/299 at 2019-08-29 21:59:33.204275
+train Loss: 0.2754
+valid Loss: 0.3245
+----------
+Epoch 204/299 at 2019-08-29 22:01:42.355982
+train Loss: 0.2725
+valid Loss: 0.3157
+----------
+Epoch 205/299 at 2019-08-29 22:03:51.601115
+train Loss: 0.2743
+valid Loss: 0.3246
+----------
+Epoch 206/299 at 2019-08-29 22:06:00.675754
+train Loss: 0.2735
+valid Loss: 0.3202
+----------
+Epoch 207/299 at 2019-08-29 22:08:14.705626
+train Loss: 0.2729
+valid Loss: 0.3220
+----------
+Epoch 208/299 at 2019-08-29 22:10:29.131962
+train Loss: 0.2704
+valid Loss: 0.3238
+----------
+Epoch 209/299 at 2019-08-29 22:12:40.994389
+train Loss: 0.2712
+valid Loss: 0.3180
+----------
+Epoch 210/299 at 2019-08-29 22:14:50.071836
+train Loss: 0.2737
+valid Loss: 0.3161
+----------
+Epoch 211/299 at 2019-08-29 22:17:00.280895
+train Loss: 0.2731
+valid Loss: 0.3199
+----------
+Epoch 212/299 at 2019-08-29 22:19:10.467471
+train Loss: 0.2702
+valid Loss: 0.3173
+----------
+Epoch 213/299 at 2019-08-29 22:21:20.671319
+train Loss: 0.2719
+valid Loss: 0.3217
+----------
+Epoch 214/299 at 2019-08-29 22:23:30.951209
+train Loss: 0.2721
+valid Loss: 0.3160
+----------
+Epoch 215/299 at 2019-08-29 22:25:40.397391
+train Loss: 0.2734
+valid Loss: 0.3202
+----------
+Epoch 216/299 at 2019-08-29 22:27:50.463127
+train Loss: 0.2710
+valid Loss: 0.3172
+----------
+Epoch 217/299 at 2019-08-29 22:30:00.821022
+train Loss: 0.2713
+valid Loss: 0.3205
+----------
+Epoch 218/299 at 2019-08-29 22:32:09.923253
+train Loss: 0.2706
+valid Loss: 0.3224
+----------
+Epoch 219/299 at 2019-08-29 22:34:21.586447
+train Loss: 0.2711
+valid Loss: 0.3175
+----------
+Epoch 220/299 at 2019-08-29 22:36:35.114243
+train Loss: 0.2688
+valid Loss: 0.3254
+----------
+Epoch 221/299 at 2019-08-29 22:38:50.358067
+train Loss: 0.2680
+valid Loss: 0.3177
+----------
+Epoch 222/299 at 2019-08-29 22:41:11.346715
+train Loss: 0.2712
+valid Loss: 0.3191
+----------
+Epoch 223/299 at 2019-08-29 22:43:31.352901
+train Loss: 0.2693
+valid Loss: 0.3203
+----------
+Epoch 224/299 at 2019-08-29 22:45:51.977497
+train Loss: 0.2696
+valid Loss: 0.3222
+----------
+Epoch 225/299 at 2019-08-29 22:48:11.327864
+train Loss: 0.2703
+valid Loss: 0.3254
+----------
+Epoch 226/299 at 2019-08-29 22:50:29.324130
+train Loss: 0.2681
+valid Loss: 0.3189
+----------
+Epoch 227/299 at 2019-08-29 22:52:47.148348
+train Loss: 0.2695
+valid Loss: 0.3193
+----------
+Epoch 228/299 at 2019-08-29 22:55:06.055849
+train Loss: 0.2681
+valid Loss: 0.3225
+----------
+Epoch 229/299 at 2019-08-29 22:57:26.378896
+train Loss: 0.2686
+valid Loss: 0.3212
+----------
+Epoch 230/299 at 2019-08-29 22:59:46.721096
+train Loss: 0.2677
+valid Loss: 0.3206
+----------
+Epoch 231/299 at 2019-08-29 23:02:07.798741
+train Loss: 0.2706
+valid Loss: 0.3156
+----------
+Epoch 232/299 at 2019-08-29 23:04:28.608026
+train Loss: 0.2670
+valid Loss: 0.3176
+----------
+Epoch 233/299 at 2019-08-29 23:06:48.965392
+train Loss: 0.2679
+valid Loss: 0.3186
+----------
+Epoch 234/299 at 2019-08-29 23:09:07.881929
+train Loss: 0.2666
+valid Loss: 0.3196
+----------
+Epoch 235/299 at 2019-08-29 23:11:25.772418
+train Loss: 0.2679
+valid Loss: 0.3201
+----------
+Epoch 236/299 at 2019-08-29 23:13:43.682219
+train Loss: 0.2678
+valid Loss: 0.3150
+----------
+Epoch 237/299 at 2019-08-29 23:16:01.627682
+train Loss: 0.2650
+valid Loss: 0.3274
+----------
+Epoch 238/299 at 2019-08-29 23:18:19.283013
+train Loss: 0.2682
+valid Loss: 0.3232
+----------
+Epoch 239/299 at 2019-08-29 23:20:37.349396
+train Loss: 0.2672
+valid Loss: 0.3200
+----------
+Epoch 240/299 at 2019-08-29 23:22:55.531833
+train Loss: 0.2654
+valid Loss: 0.3209
+----------
+Epoch 241/299 at 2019-08-29 23:25:13.788112
+train Loss: 0.2667
+valid Loss: 0.3178
+----------
+Epoch 242/299 at 2019-08-29 23:27:33.864731
+train Loss: 0.2643
+valid Loss: 0.3190
+----------
+Epoch 243/299 at 2019-08-29 23:29:55.060596
+train Loss: 0.2663
+valid Loss: 0.3220
+----------
+Epoch 244/299 at 2019-08-29 23:32:13.683177
+train Loss: 0.2658
+valid Loss: 0.3209
+----------
+Epoch 245/299 at 2019-08-29 23:34:31.800857
+train Loss: 0.2677
+valid Loss: 0.3174
+----------
+Epoch 246/299 at 2019-08-29 23:36:51.584040
+train Loss: 0.2650
+valid Loss: 0.3242
+----------
+Epoch 247/299 at 2019-08-29 23:39:12.174488
+train Loss: 0.2647
+valid Loss: 0.3207
+----------
+Epoch 248/299 at 2019-08-29 23:41:32.533253
+train Loss: 0.2652
+valid Loss: 0.3181
+----------
+Epoch 249/299 at 2019-08-29 23:43:50.507119
+train Loss: 0.2644
+valid Loss: 0.3181
+----------
+Epoch 250/299 at 2019-08-29 23:46:08.534231
+train Loss: 0.2668
+valid Loss: 0.3237
+----------
+Epoch 251/299 at 2019-08-29 23:48:24.942567
+train Loss: 0.2674
+valid Loss: 0.3196
+----------
+Epoch 252/299 at 2019-08-29 23:50:35.172154
+train Loss: 0.2649
+valid Loss: 0.3179
+----------
+Epoch 253/299 at 2019-08-29 23:52:45.201961
+train Loss: 0.2645
+valid Loss: 0.3212
+----------
+Epoch 254/299 at 2019-08-29 23:54:55.395788
+train Loss: 0.2633
+valid Loss: 0.3193
+----------
+Epoch 255/299 at 2019-08-29 23:57:05.780318
+train Loss: 0.2625
+valid Loss: 0.3182
+----------
+Epoch 256/299 at 2019-08-29 23:59:15.484819
+train Loss: 0.2632
+valid Loss: 0.3246
+----------
+Epoch 257/299 at 2019-08-30 00:01:25.034431
+train Loss: 0.2641
+valid Loss: 0.3165
+----------
+Epoch 258/299 at 2019-08-30 00:03:35.313582
+train Loss: 0.2645
+valid Loss: 0.3205
+----------
+Epoch 259/299 at 2019-08-30 00:05:45.521695
+train Loss: 0.2636
+valid Loss: 0.3127
+----------
+Epoch 260/299 at 2019-08-30 00:07:55.455918
+train Loss: 0.2626
+valid Loss: 0.3223
+----------
+Epoch 261/299 at 2019-08-30 00:10:05.381155
+train Loss: 0.2637
+valid Loss: 0.3176
+----------
+Epoch 262/299 at 2019-08-30 00:12:15.268053
+train Loss: 0.2620
+valid Loss: 0.3192
+----------
+Epoch 263/299 at 2019-08-30 00:14:24.965129
+train Loss: 0.2623
+valid Loss: 0.3189
+----------
+Epoch 264/299 at 2019-08-30 00:16:34.397031
+train Loss: 0.2617
+valid Loss: 0.3220
+----------
+Epoch 265/299 at 2019-08-30 00:18:44.243067
+train Loss: 0.2617
+valid Loss: 0.3202
+----------
+Epoch 266/299 at 2019-08-30 00:20:54.051183
+train Loss: 0.2615
+valid Loss: 0.3190
+----------
+Epoch 267/299 at 2019-08-30 00:23:03.597050
+train Loss: 0.2632
+valid Loss: 0.3377
+----------
+Epoch 268/299 at 2019-08-30 00:25:13.405979
+train Loss: 0.2631
+valid Loss: 0.3167
+----------
+Epoch 269/299 at 2019-08-30 00:27:23.416465
+train Loss: 0.2622
+valid Loss: 0.3159
+----------
+Epoch 270/299 at 2019-08-30 00:29:33.941340
+train Loss: 0.2620
+valid Loss: 0.3234
+----------
+Epoch 271/299 at 2019-08-30 00:31:43.759836
+train Loss: 0.2626
+valid Loss: 0.3169
+----------
+Epoch 272/299 at 2019-08-30 00:33:54.153115
+train Loss: 0.2612
+valid Loss: 0.3169
+----------
+Epoch 273/299 at 2019-08-30 00:36:04.499848
+train Loss: 0.2601
+valid Loss: 0.3192
+----------
+Epoch 274/299 at 2019-08-30 00:38:14.935047
+train Loss: 0.2589
+valid Loss: 0.3207
+----------
+Epoch 275/299 at 2019-08-30 00:40:25.290162
+train Loss: 0.2620
+valid Loss: 0.3202
+----------
+Epoch 276/299 at 2019-08-30 00:42:36.271187
+train Loss: 0.2591
+valid Loss: 0.3201
+----------
+Epoch 277/299 at 2019-08-30 00:44:51.953789
+train Loss: 0.2609
+valid Loss: 0.3312
+----------
+Epoch 278/299 at 2019-08-30 00:47:07.812888
+train Loss: 0.2602
+valid Loss: 0.3209
+----------
+Epoch 279/299 at 2019-08-30 00:49:21.631263
+train Loss: 0.2576
+valid Loss: 0.3166
+----------
+Epoch 280/299 at 2019-08-30 00:51:35.239803
+train Loss: 0.2597
+valid Loss: 0.3231
+----------
+Epoch 281/299 at 2019-08-30 00:53:46.314698
+train Loss: 0.2603
+valid Loss: 0.3199
+----------
+Epoch 282/299 at 2019-08-30 00:55:56.114693
+train Loss: 0.2608
+valid Loss: 0.3304
+----------
+Epoch 283/299 at 2019-08-30 00:58:06.753334
+train Loss: 0.2596
+valid Loss: 0.3213
+----------
+Epoch 284/299 at 2019-08-30 01:00:18.578004
+train Loss: 0.2570
+valid Loss: 0.3234
+----------
+Epoch 285/299 at 2019-08-30 01:02:30.983810
+train Loss: 0.2604
+valid Loss: 0.3315
+----------
+Epoch 286/299 at 2019-08-30 01:04:43.495532
+train Loss: 0.2591
+valid Loss: 0.3215
+----------
+Epoch 287/299 at 2019-08-30 01:06:54.589919
+train Loss: 0.2590
+valid Loss: 0.3188
+----------
+Epoch 288/299 at 2019-08-30 01:09:05.129495
+train Loss: 0.2564
+valid Loss: 0.3168
+----------
+Epoch 289/299 at 2019-08-30 01:11:16.081276
+train Loss: 0.2586
+valid Loss: 0.3275
+----------
+Epoch 290/299 at 2019-08-30 01:13:26.190351
+train Loss: 0.2589
+valid Loss: 0.3184
+----------
+Epoch 291/299 at 2019-08-30 01:15:36.262239
+train Loss: 0.2584
+valid Loss: 0.3206
+----------
+Epoch 292/299 at 2019-08-30 01:17:46.550661
+train Loss: 0.2568
+valid Loss: 0.3196
+----------
+Epoch 293/299 at 2019-08-30 01:19:57.019578
+train Loss: 0.2578
+valid Loss: 0.3208
+----------
+Epoch 294/299 at 2019-08-30 01:22:07.947983
+train Loss: 0.2576
+valid Loss: 0.3249
+----------
+Epoch 295/299 at 2019-08-30 01:24:18.494265
+train Loss: 0.2569
+valid Loss: 0.3175
+----------
+Epoch 296/299 at 2019-08-30 01:26:28.514136
+train Loss: 0.2559
+valid Loss: 0.3213
+----------
+Epoch 297/299 at 2019-08-30 01:28:38.573042
+train Loss: 0.2581
+valid Loss: 0.3202
+----------
+Epoch 298/299 at 2019-08-30 01:30:49.022882
+train Loss: 0.2584
+valid Loss: 0.3225
+----------
+Epoch 299/299 at 2019-08-30 01:32:59.576064
+train Loss: 0.2566
+valid Loss: 0.3212
+Training complete in 656m 14s
