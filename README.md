@@ -4,7 +4,7 @@
 - No strict dependencies are known, though this code was built with python 3.7 and pytorch 1.1.0.
 
 ## Installation
-Clone this github repository, then set up your environment to import the predict.py script in however is most convenient for you. In python, for instance, you may use the following at the top of your script to import the model.
+Clone this github repository, then set up your environment to import the `predict.py` script in however is most convenient for you. In python, for instance, you may use the following at the top of your script to import the model.
 
 ```python
 import sys
@@ -18,7 +18,9 @@ import predict as bystander_model
 bystander_model.init_model(base_editor = 'BE4', celltype = 'mES')
 ```
 
-Note: Supported cell types are `['mES', 'HEK293']`. If your cell type of interest is not included here, we recommend using mES. Major base editing outcomes are fairly consistent across cell-types, though rarer outcomes including cytosine transversions are known to depend on cell-type to some extent.
+Note: Supported cell types are `['mES', 'HEK293']` and supported base editors are `['ABE', 'ABE-CP1040', 'BE4', 'BE4-CP1028', 'AID', 'CDA', 'eA3A', 'evoAPOBEC', 'eA3A-T44DS45A', 'BE4-H47ES48A', 'eA3A-T31A', 'eA3A-T31AT44A', 'BE4-H47ES48A']`. Not all combinations of base editors and cell types are supported -- refer to `models.csv`.
+
+If your cell type of interest is not included here, we recommend using mES. Major base editing outcomes are fairly consistent across cell-types, though rarer outcomes including cytosine transversions are known to depend on cell-type to some extent.
 
 ```python
 pred_df, stats = bystander_model.predict(seq)
