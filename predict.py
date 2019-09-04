@@ -7,7 +7,6 @@ from collections import defaultdict, OrderedDict
 import glob
 import numpy as np, pandas as pd
 import torch
-import model as model_script
 
 #
 
@@ -21,10 +20,12 @@ core_substrate_nt = ''
 model = None
 tt_id = -1
 init_flag = False
+model_script = None
 
 model_settings = {
   'celltype': None,
   'base_editor': None,
+  '__base_editor_type': None,
   '__model_nm': None,
   '__param_epoch': None,
   '__combinatorial_central_pos': '6',
@@ -231,14 +232,10 @@ def __init_editor_profile_nt_cols():
     Set global setting for current editor 
   '''
   global editor_profile_nt_cols
-  editor_nm = model_settings['base_editor']
+  editor_type = model_settings['__base_editor_type']
 
-  editor_profile_fn = '/ahg/regevdata/projects/CRISPR-libraries/prj/lib-modeling/portable_modeling/data/editor_profiles.csv'
-  editor_profile_df = pd.read_csv(editor_profile_fn, index_col = 0)
-  row = editor_profile_df.loc[editor_nm]
-  if len(row.shape) > 1:
-    # Handle duplicate rows
-    row = row.iloc[0]
+  editor_profile_df = pd.read_csv('editor_profiles.csv', index_col = 0)
+  row = editor_profile_df.loc[editor_type]
   muts = editor_profile_df.columns
 
   for mut in muts:
@@ -264,28 +261,9 @@ def __init_editor_type():
   global core_substrate_nt
   global editor_type
   editor_nm = model_settings['base_editor']
-
-  ABEs = ['ABE', 'ABE-CP1040']
-  CBEs = ['BE4', 'BE4-CP1028', 'eA3A', 'AID', 'CDA', 'evoAPOBEC'] + [
-    'eA3A_noUGI',
-    'eA3A_noUGI_T31A',
-    'eA3A_Nprime_UGId12_T30A',
-    'eA3Amax_T44DS45A',
-    'BE4max_H47ES48A',
-    'eA3A_T31A',
-    'eA3A_T31AT44A',
-  ]
-  incl_abe = sum([bool(enm in editor_nm) for enm in ABEs])
-  incl_cbe = sum([bool(enm in editor_nm) for enm in CBEs])
-
-  if incl_abe and not incl_cbe:
-    core_substrate_nt = 'A'
-    editor_type = 'ABE'
-  elif incl_cbe and not incl_abe:
-    core_substrate_nt = 'C'
-    editor_type = 'CBE'
-  else:
-    assert False, f'Bad editor name: {editor_nm}.'
+  editor_type = models_design[models_design['Public base editor'] == editor_nm]['Base editor type'].iloc[0]
+  core_substrate_nt = 'A' if editor_type == 'ABE' else 'C'
+  model_settings['__base_editor_type'] = editor_type
   return
 
 
@@ -347,6 +325,12 @@ def predict(seq):
 
 
 def init_model(base_editor = '', celltype = ''):
+  # Check
+  ok_editors = set(models_design['Public base editor'])
+  assert base_editor in ok_editors, f'Bad base editor name\nAvailable options: {ok_editors}'
+  ok_celltypes = set(models_design["Celltype"])
+  assert celltype in ok_celltypes, f'Bad celltype\nAvailable options: {ok_celltypes}'
+
   # Update global settings
   spec = {
     'base_editor': base_editor,
@@ -358,10 +342,16 @@ def init_model(base_editor = '', celltype = ''):
       model_settings[key] = spec[key]
 
   # Init global parameters
-  __init_editor_profile_nt_cols()
   __init_editor_type()
+  __init_editor_profile_nt_cols()
 
   model_settings['__model_nm'] = model_nm_mapper[(base_editor, celltype)]
+
+  global model_script
+  if model_settings['__base_editor_type'] == 'CBE':
+    import model_CBE as model_script
+  else:
+    import model_ABE as model_script
 
   # Load model
   package = __load_model_hyperparameters()
