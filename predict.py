@@ -25,7 +25,7 @@ init_flag = False
 model_settings = {
   'celltype': None,
   'base_editor': None,
-  '__model_nm': '0_190524_enc_64x2_dec_256x2_nc_r5_d0.05',
+  '__model_nm': None,
   '__param_epoch': None,
   '__combinatorial_central_pos': '6',
   # 4^n. above 4 needs 2gb ram, but covers more of total probability
@@ -375,7 +375,7 @@ def init_model(base_editor = '', celltype = ''):
   global model
   model = model_script.DeepAutoregressiveModel(x_dim, y_mask_dim)
   model.load_state_dict(torch.load(
-    model_dir + f"model_{model_settings['__model_nm']}/model_epoch_{model_settings['__param_epoch']}_statedict.pt"
+    model_dir + f"model_{model_settings['__model_nm']}_epoch_{model_settings['__param_epoch']}_statedict.pt"
   ))
   model.eval()
 
