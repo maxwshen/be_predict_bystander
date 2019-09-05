@@ -10,11 +10,12 @@ import torch
 
 #
 
+curr_fold = os.path.dirname(os.path.realpath(__file__))
 nts = list('ACGT')
 nt_to_idx = {nt: nts.index(nt) for nt in nts}
 device = torch.device('cpu')
-models_design = pd.read_csv('models.csv', index_col = 0)
-model_dir = os.path.dirname(os.path.realpath(__file__)) + '/params/'
+models_design = pd.read_csv(curr_fold + '/models.csv', index_col = 0)
+model_dir = os.path.dirname(curr_fold + '/params/')
 editor_profile_nt_cols = set()
 core_substrate_nt = ''
 model = None
@@ -233,7 +234,7 @@ def __init_editor_profile_nt_cols():
   global editor_profile_nt_cols
   editor_type = model_settings['__base_editor_type']
 
-  editor_profile_df = pd.read_csv('editor_profiles.csv', index_col = 0)
+  editor_profile_df = pd.read_csv(curr_fold + '/editor_profiles.csv', index_col = 0)
   row = editor_profile_df.loc[editor_type]
   muts = editor_profile_df.columns
 
