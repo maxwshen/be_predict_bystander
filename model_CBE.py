@@ -9,7 +9,6 @@ import torch, torchvision
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms, utils
-from torch.utils.tensorboard import SummaryWriter
 import torchvision.utils
 import torch.nn as nn
 
