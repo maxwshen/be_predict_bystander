@@ -1,7 +1,9 @@
 # be_predict_bystander
 
 ## Dependencies
-- No strict dependencies are known, though this code was built with python 3.7 and pytorch 1.1.0.
+- Python 3.7 and standard packages (pickle, scipy, numpy, pandas)
+
+The models were built with pytorch==1.1.0 and torchvision==0.2.2.
 
 ## Installation
 Clone this github repository, then set up your environment to import the `predict.py` script in however is most convenient for you. In python, for instance, you may use the following at the top of your script to import the model.
