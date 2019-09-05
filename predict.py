@@ -15,7 +15,7 @@ nts = list('ACGT')
 nt_to_idx = {nt: nts.index(nt) for nt in nts}
 device = torch.device('cpu')
 models_design = pd.read_csv(curr_fold + '/models.csv', index_col = 0)
-model_dir = os.path.dirname(curr_fold + '/params/')
+model_dir = curr_fold + '/params/'
 editor_profile_nt_cols = set()
 core_substrate_nt = ''
 model = None
@@ -358,6 +358,7 @@ def init_model(base_editor = '', celltype = ''):
 
   model_settings['__model_nm'] = model_nm_mapper[(base_editor, celltype)]
 
+  sys.path.append(curr_fold)
   global model_script
   if model_settings['__base_editor_type'] == 'CBE':
     import model_CBE as model_script
