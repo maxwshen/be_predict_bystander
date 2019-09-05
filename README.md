@@ -10,13 +10,13 @@ Clone this github repository, then set up your environment to import the `predic
 
 ```python
 import sys
-sys.path.append('/directory/to/local/repo/clone/')
-import predict as bystander_model
+sys.path.append('/directory/containing/local/repo/clone/')
+from be_predict_bystander import predict as bystander_model
 ```
 
 ## Usage
 ```python
-import predict as bystander_model
+from be_predict_bystander import predict as bystander_model
 bystander_model.init_model(base_editor = 'BE4', celltype = 'mES')
 ```
 
@@ -41,7 +41,7 @@ pred_df, stats = bystander_model.predict(seq)
 
 ### Example usage
 ```python
-import predict as bystander_model
+from be_predict_bystander import predict as bystander_model
 bystander_model.init_model(base_editor = 'BE4', celltype = 'mES')
 
 seq = 'TATCAGCGGGAATTCAAGCGCACCAGCCAGAGGTGTACCGTGGACGTGAG'
