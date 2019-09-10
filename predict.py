@@ -232,6 +232,7 @@ def __init_editor_profile_nt_cols():
     Set global setting for current editor 
   '''
   global editor_profile_nt_cols
+  editor_profile_nt_cols = set()
   editor_type = model_settings['__base_editor_type']
 
   editor_profile_df = pd.read_csv(curr_fold + '/editor_profiles.csv', index_col = 0)
