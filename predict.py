@@ -294,6 +294,28 @@ def __load_model_hyperparameters():
 # Public 
 ####################################################################
 
+def add_genotype_column(pred_df, stats):
+  seq = stats['50-nt target sequence']
+  p0idx = 19
+
+  dd = defaultdict(list)
+  filtered_cols = ['Predicted frequency', 'Genotype']
+  nt_cols = [col for col in pred_df if col not in filtered_cols]
+  for idx, row in pred_df.iterrows():
+    temp_seq = list(seq)
+    for nt_col in nt_cols:
+      nt = nt_col[0]
+      pos = int(nt_col[1:])
+      jdx = p0idx + pos
+      assert seq[jdx] == nt, f'{nt_col}, {seq}, {seq[jdx]}'
+      obs_nt = row[nt_col]
+      temp_seq[jdx] = obs_nt
+    dd['Genotype'].append(''.join(temp_seq))
+
+  for col in dd:
+    pred_df[col] = dd[col]
+  return pred_df
+
 def predict(seq):
   assert len(seq) == 50, f'Error: Sequence provided is {len(seq)}, must be 50 (positions -19 to 30 w.r.t. gRNA (positions 1-20)'
   assert init_flag, f'Call .init_model() first.'
