@@ -67,4 +67,4 @@ This tool outputs predictions on the combinatorial space of size 4^N where N is 
 maxwshen at mit.edu
 
 ### License
-tba
+https://www.crisprbehive.design/about
