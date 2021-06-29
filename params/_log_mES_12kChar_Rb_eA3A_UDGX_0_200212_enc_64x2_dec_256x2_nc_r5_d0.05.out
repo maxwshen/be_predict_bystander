@@ -1,0 +1,1206 @@
+model dir: /ahg/regevdata/projects/CRISPR-libraries/prj/lib-modeling/portable_modeling/out/c_ag_res/model_mES_12kChar_Rb_eA3A_UDGX_0_200212_enc_64x2_dec_256x2_nc_r5_d0.05/
+Hyperparameters: encoder_hidden_sizes:64,64+decoder_hidden_sizes:256,256+context_feature:1+fullcontext_feature:0+position_feature:1+context_radii:5+dropout_p:0.05
+x_dim: 74
+y_mask_dim: 180
+train_test_id: 0
+----------
+Epoch 0/299 at 2020-02-12 18:53:19.470622
+train Loss: 1.4188
+valid Loss: 0.7284
+----------
+Epoch 1/299 at 2020-02-12 18:54:06.852889
+train Loss: 0.7650
+valid Loss: 0.7213
+----------
+Epoch 2/299 at 2020-02-12 18:54:53.046968
+train Loss: 0.7641
+valid Loss: 0.7175
+----------
+Epoch 3/299 at 2020-02-12 18:55:39.011900
+train Loss: 0.7638
+valid Loss: 0.7148
+----------
+Epoch 4/299 at 2020-02-12 18:56:25.335005
+train Loss: 0.7455
+valid Loss: 0.7131
+----------
+Epoch 5/299 at 2020-02-12 18:57:11.169563
+train Loss: 0.7684
+valid Loss: 0.7127
+----------
+Epoch 6/299 at 2020-02-12 18:57:57.002698
+train Loss: 0.7612
+valid Loss: 0.7096
+----------
+Epoch 7/299 at 2020-02-12 18:58:42.343523
+train Loss: 0.7586
+valid Loss: 0.7113
+----------
+Epoch 8/299 at 2020-02-12 18:59:28.313435
+train Loss: 0.7570
+valid Loss: 0.7105
+----------
+Epoch 9/299 at 2020-02-12 19:00:14.347326
+train Loss: 0.7521
+valid Loss: 0.7096
+----------
+Epoch 10/299 at 2020-02-12 19:00:59.757215
+train Loss: 0.7532
+valid Loss: 0.7087
+----------
+Epoch 11/299 at 2020-02-12 19:01:44.212958
+train Loss: 0.7592
+valid Loss: 0.7078
+----------
+Epoch 12/299 at 2020-02-12 19:02:28.749932
+train Loss: 0.7582
+valid Loss: 0.7020
+----------
+Epoch 13/299 at 2020-02-12 19:03:13.213360
+train Loss: 0.7399
+valid Loss: 0.7044
+----------
+Epoch 14/299 at 2020-02-12 19:03:58.489577
+train Loss: 0.7467
+valid Loss: 0.7037
+----------
+Epoch 15/299 at 2020-02-12 19:04:44.560289
+train Loss: 0.7492
+valid Loss: 0.7042
+----------
+Epoch 16/299 at 2020-02-12 19:05:31.406371
+train Loss: 0.7456
+valid Loss: 0.7045
+----------
+Epoch 17/299 at 2020-02-12 19:06:17.732477
+train Loss: 0.7408
+valid Loss: 0.6962
+----------
+Epoch 18/299 at 2020-02-12 19:07:03.769734
+train Loss: 0.7506
+valid Loss: 0.7042
+----------
+Epoch 19/299 at 2020-02-12 19:07:49.751331
+train Loss: 0.7496
+valid Loss: 0.7033
+----------
+Epoch 20/299 at 2020-02-12 19:08:35.359157
+train Loss: 0.7412
+valid Loss: 0.7005
+----------
+Epoch 21/299 at 2020-02-12 19:09:21.337771
+train Loss: 0.7461
+valid Loss: 0.7016
+----------
+Epoch 22/299 at 2020-02-12 19:10:07.403484
+train Loss: 0.7373
+valid Loss: 0.7005
+----------
+Epoch 23/299 at 2020-02-12 19:10:54.409635
+train Loss: 0.7467
+valid Loss: 0.7001
+----------
+Epoch 24/299 at 2020-02-12 19:11:40.330624
+train Loss: 0.7437
+valid Loss: 0.7001
+----------
+Epoch 25/299 at 2020-02-12 19:12:27.501504
+train Loss: 0.7420
+valid Loss: 0.6989
+----------
+Epoch 26/299 at 2020-02-12 19:13:14.494892
+train Loss: 0.7359
+valid Loss: 0.6994
+----------
+Epoch 27/299 at 2020-02-12 19:14:01.917425
+train Loss: 0.7315
+valid Loss: 0.6964
+----------
+Epoch 28/299 at 2020-02-12 19:14:49.410626
+train Loss: 0.7418
+valid Loss: 0.6968
+----------
+Epoch 29/299 at 2020-02-12 19:15:37.232692
+train Loss: 0.7422
+valid Loss: 0.6956
+----------
+Epoch 30/299 at 2020-02-12 19:16:24.567768
+train Loss: 0.7355
+valid Loss: 0.6965
+----------
+Epoch 31/299 at 2020-02-12 19:17:12.170235
+train Loss: 0.7386
+valid Loss: 0.6966
+----------
+Epoch 32/299 at 2020-02-12 19:17:59.058573
+train Loss: 0.7320
+valid Loss: 0.6980
+----------
+Epoch 33/299 at 2020-02-12 19:18:46.378475
+train Loss: 0.7392
+valid Loss: 0.6978
+----------
+Epoch 34/299 at 2020-02-12 19:19:33.294799
+train Loss: 0.7300
+valid Loss: 0.6964
+----------
+Epoch 35/299 at 2020-02-12 19:20:20.292642
+train Loss: 0.7307
+valid Loss: 0.6964
+----------
+Epoch 36/299 at 2020-02-12 19:21:07.196553
+train Loss: 0.7355
+valid Loss: 0.6965
+----------
+Epoch 37/299 at 2020-02-12 19:21:52.867498
+train Loss: 0.7373
+valid Loss: 0.6966
+----------
+Epoch 38/299 at 2020-02-12 19:22:37.763172
+train Loss: 0.7372
+valid Loss: 0.6953
+----------
+Epoch 39/299 at 2020-02-12 19:23:23.041305
+train Loss: 0.7370
+valid Loss: 0.6958
+----------
+Epoch 40/299 at 2020-02-12 19:24:08.268201
+train Loss: 0.7337
+valid Loss: 0.6947
+----------
+Epoch 41/299 at 2020-02-12 19:24:53.784233
+train Loss: 0.7261
+valid Loss: 0.6954
+----------
+Epoch 42/299 at 2020-02-12 19:25:39.244563
+train Loss: 0.7254
+valid Loss: 0.6950
+----------
+Epoch 43/299 at 2020-02-12 19:26:24.107963
+train Loss: 0.7259
+valid Loss: 0.6933
+----------
+Epoch 44/299 at 2020-02-12 19:27:09.267305
+train Loss: 0.7330
+valid Loss: 0.6911
+----------
+Epoch 45/299 at 2020-02-12 19:27:54.460717
+train Loss: 0.7265
+valid Loss: 0.6916
+----------
+Epoch 46/299 at 2020-02-12 19:28:39.515973
+train Loss: 0.7273
+valid Loss: 0.6881
+----------
+Epoch 47/299 at 2020-02-12 19:29:24.672263
+train Loss: 0.7303
+valid Loss: 0.6908
+----------
+Epoch 48/299 at 2020-02-12 19:30:09.439205
+train Loss: 0.7240
+valid Loss: 0.6927
+----------
+Epoch 49/299 at 2020-02-12 19:30:54.093522
+train Loss: 0.7209
+valid Loss: 0.6932
+----------
+Epoch 50/299 at 2020-02-12 19:31:38.269775
+train Loss: 0.7260
+valid Loss: 0.6903
+----------
+Epoch 51/299 at 2020-02-12 19:32:22.836335
+train Loss: 0.7323
+valid Loss: 0.6901
+----------
+Epoch 52/299 at 2020-02-12 19:33:07.919268
+train Loss: 0.7305
+valid Loss: 0.6895
+----------
+Epoch 53/299 at 2020-02-12 19:33:53.410163
+train Loss: 0.7131
+valid Loss: 0.6910
+----------
+Epoch 54/299 at 2020-02-12 19:34:39.054722
+train Loss: 0.7208
+valid Loss: 0.6918
+----------
+Epoch 55/299 at 2020-02-12 19:35:24.100185
+train Loss: 0.7277
+valid Loss: 0.6925
+----------
+Epoch 56/299 at 2020-02-12 19:36:08.019665
+train Loss: 0.7161
+valid Loss: 0.6897
+----------
+Epoch 57/299 at 2020-02-12 19:36:51.105941
+train Loss: 0.7215
+valid Loss: 0.6914
+----------
+Epoch 58/299 at 2020-02-12 19:37:34.753706
+train Loss: 0.7197
+valid Loss: 0.6913
+----------
+Epoch 59/299 at 2020-02-12 19:38:18.047520
+train Loss: 0.7266
+valid Loss: 0.6897
+----------
+Epoch 60/299 at 2020-02-12 19:39:02.685463
+train Loss: 0.7275
+valid Loss: 0.6874
+----------
+Epoch 61/299 at 2020-02-12 19:39:49.378053
+train Loss: 0.7307
+valid Loss: 0.6914
+----------
+Epoch 62/299 at 2020-02-12 19:40:35.992850
+train Loss: 0.7235
+valid Loss: 0.6910
+----------
+Epoch 63/299 at 2020-02-12 19:41:23.394843
+train Loss: 0.7278
+valid Loss: 0.6897
+----------
+Epoch 64/299 at 2020-02-12 19:42:10.652933
+train Loss: 0.7208
+valid Loss: 0.6897
+----------
+Epoch 65/299 at 2020-02-12 19:42:57.469090
+train Loss: 0.7257
+valid Loss: 0.6904
+----------
+Epoch 66/299 at 2020-02-12 19:43:43.802239
+train Loss: 0.7236
+valid Loss: 0.6902
+----------
+Epoch 67/299 at 2020-02-12 19:44:30.160977
+train Loss: 0.7183
+valid Loss: 0.6880
+----------
+Epoch 68/299 at 2020-02-12 19:45:15.840224
+train Loss: 0.7223
+valid Loss: 0.6884
+----------
+Epoch 69/299 at 2020-02-12 19:46:02.378871
+train Loss: 0.7120
+valid Loss: 0.6881
+----------
+Epoch 70/299 at 2020-02-12 19:46:48.384807
+train Loss: 0.7147
+valid Loss: 0.6885
+----------
+Epoch 71/299 at 2020-02-12 19:47:34.478659
+train Loss: 0.7134
+valid Loss: 0.6880
+----------
+Epoch 72/299 at 2020-02-12 19:48:19.818623
+train Loss: 0.7245
+valid Loss: 0.6850
+----------
+Epoch 73/299 at 2020-02-12 19:49:04.846347
+train Loss: 0.7196
+valid Loss: 0.6854
+----------
+Epoch 74/299 at 2020-02-12 19:49:49.973557
+train Loss: 0.7212
+valid Loss: 0.6878
+----------
+Epoch 75/299 at 2020-02-12 19:50:34.949587
+train Loss: 0.7137
+valid Loss: 0.6894
+----------
+Epoch 76/299 at 2020-02-12 19:51:20.096821
+train Loss: 0.7097
+valid Loss: 0.6879
+----------
+Epoch 77/299 at 2020-02-12 19:52:05.157470
+train Loss: 0.7142
+valid Loss: 0.6886
+----------
+Epoch 78/299 at 2020-02-12 19:52:50.201978
+train Loss: 0.7145
+valid Loss: 0.6891
+----------
+Epoch 79/299 at 2020-02-12 19:53:35.132003
+train Loss: 0.7176
+valid Loss: 0.6866
+----------
+Epoch 80/299 at 2020-02-12 19:54:20.491362
+train Loss: 0.7217
+valid Loss: 0.6850
+----------
+Epoch 81/299 at 2020-02-12 19:55:06.980096
+train Loss: 0.7160
+valid Loss: 0.6856
+----------
+Epoch 82/299 at 2020-02-12 19:55:53.753537
+train Loss: 0.7189
+valid Loss: 0.6850
+----------
+Epoch 83/299 at 2020-02-12 19:56:40.219521
+train Loss: 0.7234
+valid Loss: 0.6873
+----------
+Epoch 84/299 at 2020-02-12 19:57:26.814206
+train Loss: 0.7251
+valid Loss: 0.6874
+----------
+Epoch 85/299 at 2020-02-12 19:58:14.359516
+train Loss: 0.7168
+valid Loss: 0.6870
+----------
+Epoch 86/299 at 2020-02-12 19:59:01.837600
+train Loss: 0.7171
+valid Loss: 0.6828
+----------
+Epoch 87/299 at 2020-02-12 19:59:48.318217
+train Loss: 0.7137
+valid Loss: 0.6868
+----------
+Epoch 88/299 at 2020-02-12 20:00:34.274450
+train Loss: 0.7130
+valid Loss: 0.6839
+----------
+Epoch 89/299 at 2020-02-12 20:01:20.648798
+train Loss: 0.7117
+valid Loss: 0.6846
+----------
+Epoch 90/299 at 2020-02-12 20:02:06.971298
+train Loss: 0.7135
+valid Loss: 0.6807
+----------
+Epoch 91/299 at 2020-02-12 20:02:53.638271
+train Loss: 0.7030
+valid Loss: 0.6846
+----------
+Epoch 92/299 at 2020-02-12 20:03:39.805623
+train Loss: 0.7104
+valid Loss: 0.6850
+----------
+Epoch 93/299 at 2020-02-12 20:04:26.213882
+train Loss: 0.7106
+valid Loss: 0.6845
+----------
+Epoch 94/299 at 2020-02-12 20:05:13.042944
+train Loss: 0.7155
+valid Loss: 0.6852
+----------
+Epoch 95/299 at 2020-02-12 20:05:58.755180
+train Loss: 0.7188
+valid Loss: 0.6854
+----------
+Epoch 96/299 at 2020-02-12 20:06:45.711387
+train Loss: 0.7096
+valid Loss: 0.6858
+----------
+Epoch 97/299 at 2020-02-12 20:07:31.689391
+train Loss: 0.7144
+valid Loss: 0.6829
+----------
+Epoch 98/299 at 2020-02-12 20:08:17.468607
+train Loss: 0.7055
+valid Loss: 0.6820
+----------
+Epoch 99/299 at 2020-02-12 20:09:03.121276
+train Loss: 0.7084
+valid Loss: 0.6844
+----------
+Epoch 100/299 at 2020-02-12 20:09:49.771270
+train Loss: 0.7195
+valid Loss: 0.6845
+----------
+Epoch 101/299 at 2020-02-12 20:10:36.109793
+train Loss: 0.7164
+valid Loss: 0.6818
+----------
+Epoch 102/299 at 2020-02-12 20:11:22.526847
+train Loss: 0.7054
+valid Loss: 0.6841
+----------
+Epoch 103/299 at 2020-02-12 20:12:08.890950
+train Loss: 0.7105
+valid Loss: 0.6834
+----------
+Epoch 104/299 at 2020-02-12 20:12:55.027161
+train Loss: 0.7101
+valid Loss: 0.6847
+----------
+Epoch 105/299 at 2020-02-12 20:13:41.368217
+train Loss: 0.7091
+valid Loss: 0.6801
+----------
+Epoch 106/299 at 2020-02-12 20:14:27.526948
+train Loss: 0.7138
+valid Loss: 0.6808
+----------
+Epoch 107/299 at 2020-02-12 20:15:14.307639
+train Loss: 0.7061
+valid Loss: 0.6830
+----------
+Epoch 108/299 at 2020-02-12 20:16:00.786912
+train Loss: 0.7090
+valid Loss: 0.6822
+----------
+Epoch 109/299 at 2020-02-12 20:16:47.059321
+train Loss: 0.7087
+valid Loss: 0.6815
+----------
+Epoch 110/299 at 2020-02-12 20:17:31.735042
+train Loss: 0.7083
+valid Loss: 0.6817
+----------
+Epoch 111/299 at 2020-02-12 20:18:17.069306
+train Loss: 0.7075
+valid Loss: 0.6832
+----------
+Epoch 112/299 at 2020-02-12 20:19:01.860580
+train Loss: 0.7059
+valid Loss: 0.6810
+----------
+Epoch 113/299 at 2020-02-12 20:19:46.773769
+train Loss: 0.7126
+valid Loss: 0.6813
+----------
+Epoch 114/299 at 2020-02-12 20:20:32.366895
+train Loss: 0.6992
+valid Loss: 0.6798
+----------
+Epoch 115/299 at 2020-02-12 20:21:17.783425
+train Loss: 0.7106
+valid Loss: 0.6817
+----------
+Epoch 116/299 at 2020-02-12 20:22:04.095103
+train Loss: 0.7041
+valid Loss: 0.6838
+----------
+Epoch 117/299 at 2020-02-12 20:22:49.584669
+train Loss: 0.7055
+valid Loss: 0.6802
+----------
+Epoch 118/299 at 2020-02-12 20:23:35.409682
+train Loss: 0.7063
+valid Loss: 0.6824
+----------
+Epoch 119/299 at 2020-02-12 20:24:20.227274
+train Loss: 0.7040
+valid Loss: 0.6816
+----------
+Epoch 120/299 at 2020-02-12 20:25:05.655320
+train Loss: 0.7002
+valid Loss: 0.6810
+----------
+Epoch 121/299 at 2020-02-12 20:25:51.683001
+train Loss: 0.7046
+valid Loss: 0.6817
+----------
+Epoch 122/299 at 2020-02-12 20:26:37.661642
+train Loss: 0.7098
+valid Loss: 0.6803
+----------
+Epoch 123/299 at 2020-02-12 20:27:23.974549
+train Loss: 0.7016
+valid Loss: 0.6827
+----------
+Epoch 124/299 at 2020-02-12 20:28:09.903037
+train Loss: 0.7008
+valid Loss: 0.6810
+----------
+Epoch 125/299 at 2020-02-12 20:28:56.202156
+train Loss: 0.7022
+valid Loss: 0.6809
+----------
+Epoch 126/299 at 2020-02-12 20:29:42.122265
+train Loss: 0.7017
+valid Loss: 0.6803
+----------
+Epoch 127/299 at 2020-02-12 20:30:28.234757
+train Loss: 0.7059
+valid Loss: 0.6807
+----------
+Epoch 128/299 at 2020-02-12 20:31:14.532427
+train Loss: 0.6960
+valid Loss: 0.6812
+----------
+Epoch 129/299 at 2020-02-12 20:32:00.588045
+train Loss: 0.6994
+valid Loss: 0.6805
+----------
+Epoch 130/299 at 2020-02-12 20:32:46.396668
+train Loss: 0.7046
+valid Loss: 0.6809
+----------
+Epoch 131/299 at 2020-02-12 20:33:32.169192
+train Loss: 0.7012
+valid Loss: 0.6748
+----------
+Epoch 132/299 at 2020-02-12 20:34:18.068307
+train Loss: 0.7009
+valid Loss: 0.6812
+----------
+Epoch 133/299 at 2020-02-12 20:35:03.705152
+train Loss: 0.7000
+valid Loss: 0.6773
+----------
+Epoch 134/299 at 2020-02-12 20:35:48.865263
+train Loss: 0.7024
+valid Loss: 0.6793
+----------
+Epoch 135/299 at 2020-02-12 20:36:33.346836
+train Loss: 0.7043
+valid Loss: 0.6800
+----------
+Epoch 136/299 at 2020-02-12 20:37:18.966188
+train Loss: 0.7008
+valid Loss: 0.6798
+----------
+Epoch 137/299 at 2020-02-12 20:38:06.104478
+train Loss: 0.6997
+valid Loss: 0.6784
+----------
+Epoch 138/299 at 2020-02-12 20:38:52.855963
+train Loss: 0.7032
+valid Loss: 0.6757
+----------
+Epoch 139/299 at 2020-02-12 20:39:39.999607
+train Loss: 0.6950
+valid Loss: 0.6797
+----------
+Epoch 140/299 at 2020-02-12 20:40:26.146033
+train Loss: 0.7022
+valid Loss: 0.6799
+----------
+Epoch 141/299 at 2020-02-12 20:41:13.317621
+train Loss: 0.6985
+valid Loss: 0.6798
+----------
+Epoch 142/299 at 2020-02-12 20:42:00.388994
+train Loss: 0.6995
+valid Loss: 0.6788
+----------
+Epoch 143/299 at 2020-02-12 20:42:47.777367
+train Loss: 0.7073
+valid Loss: 0.6795
+----------
+Epoch 144/299 at 2020-02-12 20:43:34.951625
+train Loss: 0.7006
+valid Loss: 0.6782
+----------
+Epoch 145/299 at 2020-02-12 20:44:20.771506
+train Loss: 0.7096
+valid Loss: 0.6769
+----------
+Epoch 146/299 at 2020-02-12 20:45:06.332606
+train Loss: 0.7053
+valid Loss: 0.6778
+----------
+Epoch 147/299 at 2020-02-12 20:45:51.543243
+train Loss: 0.7003
+valid Loss: 0.6765
+----------
+Epoch 148/299 at 2020-02-12 20:46:36.862324
+train Loss: 0.6922
+valid Loss: 0.6779
+----------
+Epoch 149/299 at 2020-02-12 20:47:22.422089
+train Loss: 0.7059
+valid Loss: 0.6791
+----------
+Epoch 150/299 at 2020-02-12 20:48:07.084198
+train Loss: 0.6986
+valid Loss: 0.6786
+----------
+Epoch 151/299 at 2020-02-12 20:48:52.142436
+train Loss: 0.6982
+valid Loss: 0.6759
+----------
+Epoch 152/299 at 2020-02-12 20:49:37.240142
+train Loss: 0.6949
+valid Loss: 0.6778
+----------
+Epoch 153/299 at 2020-02-12 20:50:22.674157
+train Loss: 0.6964
+valid Loss: 0.6780
+----------
+Epoch 154/299 at 2020-02-12 20:51:07.727453
+train Loss: 0.6934
+valid Loss: 0.6753
+----------
+Epoch 155/299 at 2020-02-12 20:51:52.849054
+train Loss: 0.6933
+valid Loss: 0.6765
+----------
+Epoch 156/299 at 2020-02-12 20:52:36.321607
+train Loss: 0.6974
+valid Loss: 0.6779
+----------
+Epoch 157/299 at 2020-02-12 20:53:20.118609
+train Loss: 0.6875
+valid Loss: 0.6746
+----------
+Epoch 158/299 at 2020-02-12 20:54:03.275841
+train Loss: 0.6918
+valid Loss: 0.6767
+----------
+Epoch 159/299 at 2020-02-12 20:54:45.544156
+train Loss: 0.6935
+valid Loss: 0.6750
+----------
+Epoch 160/299 at 2020-02-12 20:55:27.308602
+train Loss: 0.6993
+valid Loss: 0.6750
+----------
+Epoch 161/299 at 2020-02-12 20:56:09.061721
+train Loss: 0.7010
+valid Loss: 0.6771
+----------
+Epoch 162/299 at 2020-02-12 20:56:51.234310
+train Loss: 0.6928
+valid Loss: 0.6758
+----------
+Epoch 163/299 at 2020-02-12 20:57:36.146703
+train Loss: 0.6979
+valid Loss: 0.6773
+----------
+Epoch 164/299 at 2020-02-12 20:58:24.014455
+train Loss: 0.6949
+valid Loss: 0.6771
+----------
+Epoch 165/299 at 2020-02-12 20:59:11.288283
+train Loss: 0.6977
+valid Loss: 0.6750
+----------
+Epoch 166/299 at 2020-02-12 20:59:58.808181
+train Loss: 0.6918
+valid Loss: 0.6771
+----------
+Epoch 167/299 at 2020-02-12 21:00:46.487363
+train Loss: 0.6918
+valid Loss: 0.6767
+----------
+Epoch 168/299 at 2020-02-12 21:01:33.404982
+train Loss: 0.6934
+valid Loss: 0.6758
+----------
+Epoch 169/299 at 2020-02-12 21:02:19.966118
+train Loss: 0.6932
+valid Loss: 0.6749
+----------
+Epoch 170/299 at 2020-02-12 21:03:04.018274
+train Loss: 0.6979
+valid Loss: 0.6667
+----------
+Epoch 171/299 at 2020-02-12 21:03:47.714343
+train Loss: 0.6875
+valid Loss: 0.6753
+----------
+Epoch 172/299 at 2020-02-12 21:04:31.768864
+train Loss: 0.6883
+valid Loss: 0.6756
+----------
+Epoch 173/299 at 2020-02-12 21:05:19.139744
+train Loss: 0.6876
+valid Loss: 0.6724
+----------
+Epoch 174/299 at 2020-02-12 21:06:06.399062
+train Loss: 0.6958
+valid Loss: 0.6744
+----------
+Epoch 175/299 at 2020-02-12 21:06:54.275448
+train Loss: 0.6909
+valid Loss: 0.6750
+----------
+Epoch 176/299 at 2020-02-12 21:07:41.422702
+train Loss: 0.6908
+valid Loss: 0.6743
+----------
+Epoch 177/299 at 2020-02-12 21:08:28.601156
+train Loss: 0.6950
+valid Loss: 0.6742
+----------
+Epoch 178/299 at 2020-02-12 21:09:14.878832
+train Loss: 0.6945
+valid Loss: 0.6762
+----------
+Epoch 179/299 at 2020-02-12 21:10:00.766884
+train Loss: 0.6925
+valid Loss: 0.6754
+----------
+Epoch 180/299 at 2020-02-12 21:10:47.011325
+train Loss: 0.6929
+valid Loss: 0.6708
+----------
+Epoch 181/299 at 2020-02-12 21:11:34.495799
+train Loss: 0.6958
+valid Loss: 0.6732
+----------
+Epoch 182/299 at 2020-02-12 21:12:21.960594
+train Loss: 0.6960
+valid Loss: 0.6741
+----------
+Epoch 183/299 at 2020-02-12 21:13:08.545684
+train Loss: 0.6949
+valid Loss: 0.6715
+----------
+Epoch 184/299 at 2020-02-12 21:13:55.307918
+train Loss: 0.6914
+valid Loss: 0.6734
+----------
+Epoch 185/299 at 2020-02-12 21:14:42.628461
+train Loss: 0.6970
+valid Loss: 0.6711
+----------
+Epoch 186/299 at 2020-02-12 21:15:29.990792
+train Loss: 0.6880
+valid Loss: 0.6725
+----------
+Epoch 187/299 at 2020-02-12 21:16:17.037009
+train Loss: 0.6939
+valid Loss: 0.6716
+----------
+Epoch 188/299 at 2020-02-12 21:17:03.085573
+train Loss: 0.6965
+valid Loss: 0.6744
+----------
+Epoch 189/299 at 2020-02-12 21:17:49.458730
+train Loss: 0.6877
+valid Loss: 0.6733
+----------
+Epoch 190/299 at 2020-02-12 21:18:36.284137
+train Loss: 0.6884
+valid Loss: 0.6714
+----------
+Epoch 191/299 at 2020-02-12 21:19:22.061947
+train Loss: 0.6890
+valid Loss: 0.6695
+----------
+Epoch 192/299 at 2020-02-12 21:20:07.534827
+train Loss: 0.6882
+valid Loss: 0.6644
+----------
+Epoch 193/299 at 2020-02-12 21:20:53.701630
+train Loss: 0.6903
+valid Loss: 0.6728
+----------
+Epoch 194/299 at 2020-02-12 21:21:40.494017
+train Loss: 0.6887
+valid Loss: 0.6722
+----------
+Epoch 195/299 at 2020-02-12 21:22:27.359269
+train Loss: 0.6904
+valid Loss: 0.6726
+----------
+Epoch 196/299 at 2020-02-12 21:23:12.985073
+train Loss: 0.6866
+valid Loss: 0.6706
+----------
+Epoch 197/299 at 2020-02-12 21:23:57.577049
+train Loss: 0.6897
+valid Loss: 0.6677
+----------
+Epoch 198/299 at 2020-02-12 21:24:42.253257
+train Loss: 0.6858
+valid Loss: 0.6715
+----------
+Epoch 199/299 at 2020-02-12 21:25:26.441269
+train Loss: 0.6881
+valid Loss: 0.6721
+----------
+Epoch 200/299 at 2020-02-12 21:26:10.471485
+train Loss: 0.6867
+valid Loss: 0.6728
+----------
+Epoch 201/299 at 2020-02-12 21:26:55.790221
+train Loss: 0.6864
+valid Loss: 0.6657
+----------
+Epoch 202/299 at 2020-02-12 21:27:41.984087
+train Loss: 0.6842
+valid Loss: 0.6721
+----------
+Epoch 203/299 at 2020-02-12 21:28:28.758288
+train Loss: 0.6796
+valid Loss: 0.6719
+----------
+Epoch 204/299 at 2020-02-12 21:29:15.469414
+train Loss: 0.6901
+valid Loss: 0.6696
+----------
+Epoch 205/299 at 2020-02-12 21:30:01.128758
+train Loss: 0.6881
+valid Loss: 0.6721
+----------
+Epoch 206/299 at 2020-02-12 21:30:46.569482
+train Loss: 0.6862
+valid Loss: 0.6702
+----------
+Epoch 207/299 at 2020-02-12 21:31:32.232218
+train Loss: 0.6779
+valid Loss: 0.6689
+----------
+Epoch 208/299 at 2020-02-12 21:32:17.734949
+train Loss: 0.6872
+valid Loss: 0.6709
+----------
+Epoch 209/299 at 2020-02-12 21:33:03.371026
+train Loss: 0.6910
+valid Loss: 0.6694
+----------
+Epoch 210/299 at 2020-02-12 21:33:48.644363
+train Loss: 0.6862
+valid Loss: 0.6712
+----------
+Epoch 211/299 at 2020-02-12 21:34:34.623254
+train Loss: 0.6800
+valid Loss: 0.6679
+----------
+Epoch 212/299 at 2020-02-12 21:35:20.287502
+train Loss: 0.6818
+valid Loss: 0.6699
+----------
+Epoch 213/299 at 2020-02-12 21:36:06.138494
+train Loss: 0.6933
+valid Loss: 0.6667
+----------
+Epoch 214/299 at 2020-02-12 21:36:51.978554
+train Loss: 0.6792
+valid Loss: 0.6658
+----------
+Epoch 215/299 at 2020-02-12 21:37:37.709208
+train Loss: 0.6788
+valid Loss: 0.6683
+----------
+Epoch 216/299 at 2020-02-12 21:38:23.486071
+train Loss: 0.6853
+valid Loss: 0.6708
+----------
+Epoch 217/299 at 2020-02-12 21:39:08.628235
+train Loss: 0.6889
+valid Loss: 0.6686
+----------
+Epoch 218/299 at 2020-02-12 21:39:53.894702
+train Loss: 0.6797
+valid Loss: 0.6673
+----------
+Epoch 219/299 at 2020-02-12 21:40:39.815106
+train Loss: 0.6875
+valid Loss: 0.6681
+----------
+Epoch 220/299 at 2020-02-12 21:41:25.577757
+train Loss: 0.6817
+valid Loss: 0.6694
+----------
+Epoch 221/299 at 2020-02-12 21:42:11.025859
+train Loss: 0.6799
+valid Loss: 0.6692
+----------
+Epoch 222/299 at 2020-02-12 21:42:56.363159
+train Loss: 0.6886
+valid Loss: 0.6699
+----------
+Epoch 223/299 at 2020-02-12 21:43:40.823207
+train Loss: 0.6844
+valid Loss: 0.6701
+----------
+Epoch 224/299 at 2020-02-12 21:44:26.166405
+train Loss: 0.6785
+valid Loss: 0.6685
+----------
+Epoch 225/299 at 2020-02-12 21:45:11.760922
+train Loss: 0.6779
+valid Loss: 0.6707
+----------
+Epoch 226/299 at 2020-02-12 21:45:57.332334
+train Loss: 0.6901
+valid Loss: 0.6660
+----------
+Epoch 227/299 at 2020-02-12 21:46:42.668644
+train Loss: 0.6799
+valid Loss: 0.6696
+----------
+Epoch 228/299 at 2020-02-12 21:47:28.417245
+train Loss: 0.6879
+valid Loss: 0.6683
+----------
+Epoch 229/299 at 2020-02-12 21:48:14.171481
+train Loss: 0.6747
+valid Loss: 0.6688
+----------
+Epoch 230/299 at 2020-02-12 21:48:59.580604
+train Loss: 0.6816
+valid Loss: 0.6683
+----------
+Epoch 231/299 at 2020-02-12 21:49:44.993269
+train Loss: 0.6831
+valid Loss: 0.6692
+----------
+Epoch 232/299 at 2020-02-12 21:50:30.407046
+train Loss: 0.6808
+valid Loss: 0.6686
+----------
+Epoch 233/299 at 2020-02-12 21:51:15.420554
+train Loss: 0.6855
+valid Loss: 0.6676
+----------
+Epoch 234/299 at 2020-02-12 21:51:59.836582
+train Loss: 0.6801
+valid Loss: 0.6673
+----------
+Epoch 235/299 at 2020-02-12 21:52:44.624146
+train Loss: 0.6858
+valid Loss: 0.6687
+----------
+Epoch 236/299 at 2020-02-12 21:53:29.935195
+train Loss: 0.6805
+valid Loss: 0.6671
+----------
+Epoch 237/299 at 2020-02-12 21:54:15.090160
+train Loss: 0.6813
+valid Loss: 0.6683
+----------
+Epoch 238/299 at 2020-02-12 21:55:00.251097
+train Loss: 0.6802
+valid Loss: 0.6682
+----------
+Epoch 239/299 at 2020-02-12 21:55:45.137266
+train Loss: 0.6802
+valid Loss: 0.6694
+----------
+Epoch 240/299 at 2020-02-12 21:56:30.323943
+train Loss: 0.6799
+valid Loss: 0.6687
+----------
+Epoch 241/299 at 2020-02-12 21:57:15.661473
+train Loss: 0.6800
+valid Loss: 0.6665
+----------
+Epoch 242/299 at 2020-02-12 21:58:00.886577
+train Loss: 0.6745
+valid Loss: 0.6674
+----------
+Epoch 243/299 at 2020-02-12 21:58:45.674299
+train Loss: 0.6831
+valid Loss: 0.6681
+----------
+Epoch 244/299 at 2020-02-12 21:59:30.508500
+train Loss: 0.6706
+valid Loss: 0.6670
+----------
+Epoch 245/299 at 2020-02-12 22:00:15.705255
+train Loss: 0.6887
+valid Loss: 0.6678
+----------
+Epoch 246/299 at 2020-02-12 22:01:00.241783
+train Loss: 0.6852
+valid Loss: 0.6673
+----------
+Epoch 247/299 at 2020-02-12 22:01:44.757392
+train Loss: 0.6818
+valid Loss: 0.6656
+----------
+Epoch 248/299 at 2020-02-12 22:02:28.799166
+train Loss: 0.6810
+valid Loss: 0.6681
+----------
+Epoch 249/299 at 2020-02-12 22:03:13.400572
+train Loss: 0.6785
+valid Loss: 0.6673
+----------
+Epoch 250/299 at 2020-02-12 22:03:58.230697
+train Loss: 0.6768
+valid Loss: 0.6676
+----------
+Epoch 251/299 at 2020-02-12 22:04:43.533010
+train Loss: 0.6784
+valid Loss: 0.6674
+----------
+Epoch 252/299 at 2020-02-12 22:05:28.454706
+train Loss: 0.6825
+valid Loss: 0.6666
+----------
+Epoch 253/299 at 2020-02-12 22:06:13.528703
+train Loss: 0.6798
+valid Loss: 0.6661
+----------
+Epoch 254/299 at 2020-02-12 22:06:58.001754
+train Loss: 0.6798
+valid Loss: 0.6668
+----------
+Epoch 255/299 at 2020-02-12 22:07:42.950291
+train Loss: 0.6744
+valid Loss: 0.6659
+----------
+Epoch 256/299 at 2020-02-12 22:08:27.645394
+train Loss: 0.6752
+valid Loss: 0.6665
+----------
+Epoch 257/299 at 2020-02-12 22:09:12.844465
+train Loss: 0.6875
+valid Loss: 0.6629
+----------
+Epoch 258/299 at 2020-02-12 22:09:58.006566
+train Loss: 0.6743
+valid Loss: 0.6654
+----------
+Epoch 259/299 at 2020-02-12 22:10:42.995608
+train Loss: 0.6774
+valid Loss: 0.6628
+----------
+Epoch 260/299 at 2020-02-12 22:11:28.115257
+train Loss: 0.6774
+valid Loss: 0.6657
+----------
+Epoch 261/299 at 2020-02-12 22:12:12.378290
+train Loss: 0.6822
+valid Loss: 0.6586
+----------
+Epoch 262/299 at 2020-02-12 22:12:57.376098
+train Loss: 0.6814
+valid Loss: 0.6648
+----------
+Epoch 263/299 at 2020-02-12 22:13:41.620545
+train Loss: 0.6739
+valid Loss: 0.6647
+----------
+Epoch 264/299 at 2020-02-12 22:14:26.654248
+train Loss: 0.6693
+valid Loss: 0.6631
+----------
+Epoch 265/299 at 2020-02-12 22:15:11.600521
+train Loss: 0.6766
+valid Loss: 0.6650
+----------
+Epoch 266/299 at 2020-02-12 22:15:56.043684
+train Loss: 0.6711
+valid Loss: 0.6659
+----------
+Epoch 267/299 at 2020-02-12 22:16:40.557840
+train Loss: 0.6744
+valid Loss: 0.6647
+----------
+Epoch 268/299 at 2020-02-12 22:17:25.269347
+train Loss: 0.6751
+valid Loss: 0.6653
+----------
+Epoch 269/299 at 2020-02-12 22:18:10.181717
+train Loss: 0.6724
+valid Loss: 0.6655
+----------
+Epoch 270/299 at 2020-02-12 22:18:54.434662
+train Loss: 0.6823
+valid Loss: 0.6640
+----------
+Epoch 271/299 at 2020-02-12 22:19:39.227206
+train Loss: 0.6772
+valid Loss: 0.6516
+----------
+Epoch 272/299 at 2020-02-12 22:20:23.749386
+train Loss: 0.6656
+valid Loss: 0.6646
+----------
+Epoch 273/299 at 2020-02-12 22:21:08.579286
+train Loss: 0.6693
+valid Loss: 0.6629
+----------
+Epoch 274/299 at 2020-02-12 22:21:53.355602
+train Loss: 0.6674
+valid Loss: 0.6624
+----------
+Epoch 275/299 at 2020-02-12 22:22:38.124490
+train Loss: 0.6756
+valid Loss: 0.6652
+----------
+Epoch 276/299 at 2020-02-12 22:23:22.960357
+train Loss: 0.6741
+valid Loss: 0.6629
+----------
+Epoch 277/299 at 2020-02-12 22:24:07.783530
+train Loss: 0.6711
+valid Loss: 0.6633
+----------
+Epoch 278/299 at 2020-02-12 22:24:52.605814
+train Loss: 0.6819
+valid Loss: 0.6640
+----------
+Epoch 279/299 at 2020-02-12 22:25:37.452926
+train Loss: 0.6719
+valid Loss: 0.6607
+----------
+Epoch 280/299 at 2020-02-12 22:26:22.281359
+train Loss: 0.6844
+valid Loss: 0.6642
+----------
+Epoch 281/299 at 2020-02-12 22:27:07.133313
+train Loss: 0.6786
+valid Loss: 0.6633
+----------
+Epoch 282/299 at 2020-02-12 22:27:51.981264
+train Loss: 0.6683
+valid Loss: 0.6636
+----------
+Epoch 283/299 at 2020-02-12 22:28:36.865636
+train Loss: 0.6722
+valid Loss: 0.6620
+----------
+Epoch 284/299 at 2020-02-12 22:29:21.656829
+train Loss: 0.6702
+valid Loss: 0.6644
+----------
+Epoch 285/299 at 2020-02-12 22:30:06.239048
+train Loss: 0.6717
+valid Loss: 0.6637
+----------
+Epoch 286/299 at 2020-02-12 22:30:50.651960
+train Loss: 0.6731
+valid Loss: 0.6612
+----------
+Epoch 287/299 at 2020-02-12 22:31:35.504230
+train Loss: 0.6735
+valid Loss: 0.6593
+----------
+Epoch 288/299 at 2020-02-12 22:32:21.463167
+train Loss: 0.6710
+valid Loss: 0.6606
+----------
+Epoch 289/299 at 2020-02-12 22:33:07.484186
+train Loss: 0.6652
+valid Loss: 0.6637
+----------
+Epoch 290/299 at 2020-02-12 22:33:53.509918
+train Loss: 0.6691
+valid Loss: 0.6626
+----------
+Epoch 291/299 at 2020-02-12 22:34:39.416198
+train Loss: 0.6770
+valid Loss: 0.6581
+----------
+Epoch 292/299 at 2020-02-12 22:35:25.067336
+train Loss: 0.6725
+valid Loss: 0.6623
+----------
+Epoch 293/299 at 2020-02-12 22:36:10.949952
+train Loss: 0.6754
+valid Loss: 0.6616
+----------
+Epoch 294/299 at 2020-02-12 22:36:56.157472
+train Loss: 0.6673
+valid Loss: 0.6624
+----------
+Epoch 295/299 at 2020-02-12 22:37:41.351367
+train Loss: 0.6666
+valid Loss: 0.6634
+----------
+Epoch 296/299 at 2020-02-12 22:38:26.542062
+train Loss: 0.6630
+valid Loss: 0.6632
+----------
+Epoch 297/299 at 2020-02-12 22:39:11.542222
+train Loss: 0.6715
+valid Loss: 0.6632
+----------
+Epoch 298/299 at 2020-02-12 22:39:56.934766
+train Loss: 0.6693
+valid Loss: 0.6610
+----------
+Epoch 299/299 at 2020-02-12 22:40:42.972365
+train Loss: 0.6731
+valid Loss: 0.6620
+Training complete in 228m 10s

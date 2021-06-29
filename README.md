@@ -22,6 +22,8 @@ bystander_model.init_model(base_editor = 'BE4', celltype = 'mES')
 
 Note: Supported cell types are `['mES', 'HEK293']` and supported base editors are `['ABE', 'ABE-CP1040', 'BE4', 'BE4-CP1028', 'AID', 'CDA', 'eA3A', 'evoAPOBEC', 'eA3A-T44DS45A', 'BE4-H47ES48A', 'eA3A-T31A', 'eA3A-T31AT44A', 'BE4-H47ES48A']`. Not all combinations of base editors and cell types are supported -- refer to `models.csv`.
 
+Available C-to-G base editors (CGBEs): `['CG-eA3A', 'CG-689', 'CG-APOBEC1', 'CG-POLD2-APOBEC1-X', 'CG-RBMX-eA3A-X-HF', 'CG-RBMX-eA3A-X', 'CG-X-689-X-RBMX', 'CG-X-APOBEC1-X-HF', 'CG-X-EE-X-X', 'CG-eA3A-dead', 'CG-EE']`.
+
 If your cell type of interest is not included here, we recommend using mES. Major base editing outcomes are fairly consistent across cell-types, though rarer outcomes including cytosine transversions are known to depend on cell-type to some extent.
 
 ```python
